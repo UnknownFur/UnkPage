@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../Images/AboutMe/background.png");
+    background-repeat: no-repeat;
+    background-size: auto 118vh;
+    background-position-x: left;
+}
+section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10vh;
+}
+.pdf{
+    width: 50%;
+    height: 50vh;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8vh;
+}
+.info h1{
+    margin-bottom: 3vh;
+}
+h1{
+    font-family: "Jaro", sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+    color: brown;
+}
+h2{
+    font-family: "Istok Web", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+@media only screen and (min-width: 0px) and (max-width: 600px){
+    section{
+        flex-direction: column;
+    }
+    .pdf{
+        width: 80%;
+        height: 40vh;
+    }
+}

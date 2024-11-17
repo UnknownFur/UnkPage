@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../Images/Prices/background.png");
+    background-repeat: no-repeat;
+    background-size: auto 118vh;
+    background-position-x: left;
+}
+.izq-img{
+    width: 70%;
+}
+.der-img{
+    width: 76%;
+}
+.letter{
+    width: 5%;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+.izq-sec{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+@media only screen and (min-width: 0px) and (max-width: 600px){
+    section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .izq-sec{
+        justify-content: center;
+    }
+}

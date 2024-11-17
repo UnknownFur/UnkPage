@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../Images/Portfolio/background.png");
+    background-repeat: no-repeat;
+    background-size: auto 118vh;
+    background-position-x: left;
+}
+h1{
+    font-family: "Jaro", sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+    margin-left: 10vh;
+    margin-top: 4vh;
+    color: white;
+}
+.content{
+    display: flex;
+    margin: 10vh;
+    margin-top: 1.5vh;
+}
+.izq-port{
+    display: flex;
+    width: 50%;
+}
+.artimg{
+    transition: 250ms;
+    width: 60%;
+    height: fit-content;
+}
+.artimg:hover{
+    transition: 250ms;
+    transform: translateY(-5px);
+    opacity: 50%;
+}
+.sktimg{
+    transition: 250ms;
+}
+.sktimg:hover{
+    transition: 250ms;
+    transform: translateY(-5px);
+    opacity: 50%;
+}
+.reeimg{
+    transition: 250ms;
+}
+.reeimg:hover{
+    transition: 250ms;
+    transform: translateY(-5px);
+    opacity: 50%;
+}
+.izq-der{
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.izq-der img{
+    width: 70%;
+}
+.der-port{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.der-port model-viewer{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (min-width: 0px) and (max-width: 600px){
+    .content{
+        display: grid;
+        height: fit-content;
+    }
+    .izq-port{
+        width: 100%;
+    }
+    .der-port{
+        height: 40vh;
+        width: 100%;
+    }
+    h1{
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../Images/Principal/background.png");
+    background-repeat: no-repeat;
+    background-size: auto 118vh;
+    background-position-x: left;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../Images/Contact/background.png");
+    background-repeat: no-repeat;
+    background-size: auto 118vh;
+    background-position-x: left;
+}
+header{  
+    width: 2vh;
+    margin-left: 10vh;
+    margin-top: 20vh;
+}
+header h1{
+    font-family: "Jaro", sans-serif;
+    font-weight: lighter;
+    font-size: 7vh;
+    letter-spacing: 5px;
+    color: brown;
+}
+header h2{
+    font-family: "Istok Web", sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+    color: black;
+    letter-spacing: 4px;
+}
+
+section img{
+    position: absolute;
+    width: 65vh;
+    bottom: 1vh;
+    right: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 600px){
+    header{  
+        width: 100%;
+        margin: 0;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
