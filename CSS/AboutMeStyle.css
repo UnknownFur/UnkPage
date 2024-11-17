@@ -17,6 +17,12 @@ section{
     align-items: center;
     margin-top: 10vh;
 }
+section a{
+    text-decoration: none;
+    font-family: "Istok Web", sans-serif;
+    font-size: 14px;
+    color: brown;
+}
 .pdf{
     width: 50%;
     height: 50vh;
