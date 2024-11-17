@@ -72,3 +72,17 @@ footer img:hover{
     position: fixed;
     left: 10vh;
 }
+@media only screen and (min-width: 0px) and (max-width: 600px){
+    footer{
+        right: 0;
+        margin-bottom: 2vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .caption{
+        right: auto;
+        left: auto;
+        margin-top: 8vh;
+    }
+}
