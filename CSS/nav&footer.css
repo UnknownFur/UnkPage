@@ -12,13 +12,15 @@ nav ul button{
     font-weight: bold;
     border: none;
     background: transparent;
-    margin-left: 1em;
+    margin: 0.2em;
     color: brown;
+    border: solid brown 2px;
+    border-radius: 15px;
+    padding: 6px;
     transition: 250ms;
 }
 nav ul button:hover{
-    color: black;
-    opacity: 50%;
+    opacity: 30%;
     transform: translateY(-5px);
     transition: 250ms;
 }
@@ -34,12 +36,18 @@ nav ul button:hover{
 a{
     text-decoration: none;
     display: contents;
+    
+}
+.image-container{
+    border-radius: 20px 0px 0px 20px;
+    background-color: brown;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 nav img{
     width: 70px;
-    height: 100%;
-    background-color: brown;
-    border-radius: 20px 0px 0px 20px;
+    height: auto;
     transition: 250ms;
 }
 nav img:hover{

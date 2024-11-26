@@ -56,4 +56,7 @@ h2{
         width: 80%;
         height: 40vh;
     }
+    embed{
+        display: none;
+    }
 }
